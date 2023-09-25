@@ -4,6 +4,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Table of Contents](#TableOfContents)
 * [Neopixel](#Neopixel)
 * [CircuitPython_Servo](#CircuitPython_Servo)
+* [Distance_Sensor](#Distance_Sensor)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
@@ -127,44 +128,35 @@ Remember you can insert pictures using Markdown or HTML
 
 ### Reflection
 
-This assignment was a fun and challenging way. I had trouble starting, but I got some help from Josh, Ryan and Mr. Helmstetter. This helped me figure out some things and finish the assignment.
+This assignment was a fun and challenging way. I had trouble starting, but I got some help from others. This helped me it figure out.
 
 
-
-
-
-## CircuitPython_LCD
+## Distance_Sensor
 
 ### Description & Code
+For this assignment, we had to first get the distance sensor displaying the distance of an object in the serial monitor. Then, we had to get an LED to show how far it was with a corresponding color. 
 
 ```python
-Code goes here
+import time
+import board
+import adafruit_hcsr04
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+cm = 0
+while True:
+    try:
+        cm = sonar.distance
+        print((cm))
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)
 
 ```
 
 ### Evidence
-
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-
-### Wiring
-
-### Reflection
-
-
-
-
-
-## NextAssignment
-
-### Description & Code
-
-```python
-Code goes here
-
-```
-
-### Evidence
+![Arduino-Ultrasonic-Sensor-Tutorial-0007-Adding-an-LCD-character-display](https://github.com/rkish3721/Eng3/assets/143533512/1295478a-ac2a-44de-b31b-22db2e545e74)
 
 ### Wiring
+![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/e78d8604-0e3d-4dca-91d6-b3dfdce04a54)
 
 ### Reflection
+This assignment was relatively easy, at least the beginning. I wasn't able to get the second part working, but I was able to do the original assignment. I will try and finish the assignment later. 
