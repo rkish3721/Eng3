@@ -5,7 +5,6 @@ This repository will actually serve as an aid to help you get started with your 
 * [Neopixel](#Neopixel)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [Distance_Sensor](#Distance_Sensor)
-* [CircuitPython_LCD](#CircuitPython_LCD)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -128,13 +127,16 @@ Remember you can insert pictures using Markdown or HTML
 
 ### Reflection
 
-This assignment was a fun and challenging way. I had trouble starting, but I got some help from others. This helped me it figure out.
+This assignment was a fun and challenging way. I had trouble starting, but I got some help from Josh, Ryan and Mr. Helmstetter. This helped me figure out some things and finish the assignment.
+
+
+
 
 
 ## Distance_Sensor
 
 ### Description & Code
-For this assignment, we had to first get the distance sensor displaying the distance of an object in the serial monitor. Then, we had to get an LED to show how far it was with a corresponding color. 
+For this assignment we had to first get the serial to print the distance from the distance sensor. Then we had to show this with a corresponding color. 
 
 ```python
 import time
@@ -153,10 +155,10 @@ while True:
 ```
 
 ### Evidence
-![Arduino-Ultrasonic-Sensor-Tutorial-0007-Adding-an-LCD-character-display](https://github.com/rkish3721/Eng3/assets/143533512/1295478a-ac2a-44de-b31b-22db2e545e74)
+![Arduino-Ultrasonic-Sensor-Tutorial-0007-Adding-an-LCD-character-display](https://github.com/rkish3721/Eng3/assets/143533512/e204a3d0-4657-4320-b3c4-b8fe1ea702f5)
 
 ### Wiring
-![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/e78d8604-0e3d-4dca-91d6-b3dfdce04a54)
+![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/f964e1ce-5fe3-4822-bf0c-4d395d91436c)
 
 ### Reflection
-This assignment was relatively easy, at least the beginning. I wasn't able to get the second part working, but I was able to do the original assignment. I will try and finish the assignment later. 
+This assignment was relatively easy, at least the beginning. I couldn't figure out how to do the second part, but will try it later.
