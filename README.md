@@ -5,7 +5,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Neopixel](#Neopixel)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [Distance_Sensor](#Distance_Sensor)
-* [NextAssignmentGoesHere](#NextAssignment)
+* [Motor_Control](Motor_Control)
 ---
 
 ## Neopixel
@@ -162,3 +162,37 @@ while True:
 
 ### Reflection
 This assignment was relatively easy, at least the beginning. I couldn't figure out how to do the second part, but will try it later.
+
+## Motor_Control
+### Description & Code
+For this assignment, we had to control a motor's speed by moving a potentiometer. 
+```python
+import time 
+import board
+from analogio import AnalogIn
+import pwmio
+from digitalio import DigitalInOut
+
+#pins
+potentiometerpin = AnalogIn(board.A0)
+motorpin = pwmio.PWMOut(board.D3)
+
+#prints the potentiometer value then writes it to the motor
+while True:
+    print(potentiometerpin.value)
+    time.sleep(0.1)
+    motorpin.duty_cycle = potentiometerpin.value
+```
+
+
+### Evidence
+
+![6297701662400067268](https://github.com/rkish3721/Eng3/assets/143533512/a70487e8-a2c6-43ee-8b03-771ed4fc47b3)
+
+### Wiring
+![image](https://github.com/rkish3721/Eng3/assets/143533512/d47290d6-20cf-4512-8c84-e43c0f87e50c)
+
+### Reflection
+This project was easy once I got the wiring done. Thankfully, the code already existed for the conversion so I didn't have to figure it out myself
+
+
