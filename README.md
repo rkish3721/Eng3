@@ -1,11 +1,13 @@
 # CircuitPython
 This repository will actually serve as an aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
 ## Table of Contents
-* [Table of Contents](#TableOfContents)
-* [Neopixel](#Neopixel)
-* [CircuitPython_Servo](#CircuitPython_Servo)
-* [Distance_Sensor](#Distance_Sensor)
+* [Table of Contents](TableOfContents)
+* [Neopixel](Neopixel)
+* [CircuitPython_Servo](CircuitPython_Servo)
+* [Distance_Sensor](Distance_Sensor)
 * [Motor_Control](Motor_Control)
+* [Hangar](Hangar)
+* [Swing_Arm](Swing_Arm)
 ---
 
 ## Neopixel
@@ -194,23 +196,25 @@ while True:
 This project was easy once I got the wiring done. Thankfully, the code already existed for the conversion so I didn't have to figure it out myself
 
 
-## Onshape_Assignment_Template
+## Hangar
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Create a Hangar off of a couple of diagrams. 
 
 ### Evidence
 
-Take several cropped screenshots of your Onshape document from different angles. Try to capture all important aspects of the design. Turn off overlays that obscure the parts, such as planes or mate connectors. Your images should have captions, so the reader knows what they are looking at!  
+![image](https://github.com/rkish3721/Eng3/assets/143533512/51443432-cf77-46bf-b1d9-54301aa0e0fc)
+![image](https://github.com/rkish3721/Eng3/assets/143533512/b0fb2115-0cc3-4a9e-b8dd-24f8e68b7cb9)
+![image](https://github.com/rkish3721/Eng3/assets/143533512/8979645f-96c6-4570-b436-c828686e4133)
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8a7d80cc744575f2/e/dbb2c604f01a1726824c346c?renderMode=0&leftPanel=false&uiState=652020c39e6e0e4d8aa4e6c4
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. 
 
 &nbsp;
 
