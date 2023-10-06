@@ -1,13 +1,13 @@
 # CircuitPython
 This repository will actually serve as an aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
 ## Table of Contents
-* [Table of Contents](TableOfContents)
-* [Neopixel](Neopixel)
-* [CircuitPython_Servo](CircuitPython_Servo)
-* [Distance_Sensor](Distance_Sensor)
-* [Motor_Control](Motor_Control)
-* [Hangar](Hangar)
-* [Swing_Arm](Swing_Arm)
+* [Table of Contents](#TableOfContents)
+* [Neopixel](#Neopixel)
+* [CircuitPython_Servo](#CircuitPython_Servo)
+* [Distance_Sensor](#Distance_Sensor)
+* [Motor_Control](#Motor_Control)
+* [Hangar](#Hangar)
+* [Swing_Arm](#Swing_Arm)
 ---
 
 ## Neopixel
