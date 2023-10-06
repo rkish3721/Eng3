@@ -196,6 +196,27 @@ while True:
 This project was easy once I got the wiring done. Thankfully, the code already existed for the conversion so I didn't have to figure it out myself
 
 
+## Swing_Arm
+
+### Assignment Description
+
+Create a Swing Arm off of a couple of diagrams. 
+
+### Evidence
+![image](https://github.com/rkish3721/Eng3/assets/143533512/6b71707a-2bd4-442b-b4b6-7bf840749076)
+![image](https://github.com/rkish3721/Eng3/assets/143533512/fc428a0a-9ea0-4ffd-9b46-62a4de0cad18)
+![image](https://github.com/rkish3721/Eng3/assets/143533512/79214081-1c8a-421c-9e13-e83eba0ff08f)
+
+
+### Part Link 
+
+[https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8a7d80cc744575f2/e/dbb2c604f01a1726824c346c?renderMode=0&leftPanel=false&uiState=652020c39e6e0e4d8aa4e6c4](https://cvilleschools.onshape.com/documents/8a3131d7295d5fcba5a5fb46/w/18bc800323359c4ed220c16e/e/f967bfbc066e21d6992bfc97?renderMode=0&uiState=6520232cc410cf73ca87c904)
+
+### Reflection
+
+This part was much more diffucult. I had issues in almost every part of the process. I had issues with sketching, extruding, and applying the fillets. Most of this was because of the confusing diagrams and the amount of constraints. With help from Mr. Miller, I was able to find the mistakes and find the correct mass. 
+&nbsp;
+
 ## Hangar
 
 ### Assignment Description
@@ -217,6 +238,5 @@ https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8
 This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. 
 
 &nbsp;
-
 step 1: 871.71
 Step 2: 2355.7
