@@ -6,6 +6,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [Distance_Sensor](#Distance_Sensor)
 * [Motor_Control](#Motor_Control)
+* [Photointerrupter](#Photointerrupter)
 * [Hangar](#Hangar)
 * [Swing_Arm](#Swing_Arm)
 ---
@@ -194,6 +195,53 @@ while True:
 
 ### Reflection
 This project was easy once I got the wiring done. Thankfully, the code already existed for the conversion so I didn't have to figure it out myself
+
+## Photointerrupter
+### Description & Code
+The goal of this assignment was to make it so a number was displayed showing how many times the photointerrupter was triggered between intervals of 4 seconds.
+```python
+from digitalio import DigitalInOut, Direction, Pull
+import time
+import board
+
+interrupter = DigitalInOut(board.D7)
+interrupter.direction = Direction.INPUT
+interrupter.pull = Pull.UP
+
+counter = 0
+
+photo = False
+state = False
+
+max = 4
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+            counter += 1
+    state = photo
+
+    remaining = max - time.time()
+
+    if remaining <= 0:
+        print("Interrupts:", str(counter))
+        max = time.time() + 4
+        counter = 0
+```
+
+
+### Evidence
+Image credit goes to Arduino
+![image](https://github.com/rkish3721/Eng3/assets/143533512/bc990605-05be-4ef1-bba6-c86dcaf8b5c6)
+
+
+
+### Wiring
+![image](https://github.com/rkish3721/Eng3/assets/143533512/410f3b8a-ff6a-4074-bc3e-f0a827d9f493)
+
+
+### Reflection
+This assignment was pretty easy, but I needed some help with the code from Will. I understand how the photointerrupter works now, and can use it in future projects.
 
 
 ## Swing_Arm
