@@ -118,13 +118,12 @@ while True:
 ```
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-Remember you can insert pictures using Markdown or HTML
-
-
 
 ![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
 
+
+
+Image Credit to Arduino
 ### Wiring
 ![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/946ec9f5-aa5e-43f6-85f8-bd1cee2f63c1)
 
@@ -160,6 +159,9 @@ while True:
 ### Evidence
 ![Arduino-Ultrasonic-Sensor-Tutorial-0007-Adding-an-LCD-character-display](https://github.com/rkish3721/Eng3/assets/143533512/e204a3d0-4657-4320-b3c4-b8fe1ea702f5)
 
+
+
+Image Credit to Arduino
 ### Wiring
 ![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/f964e1ce-5fe3-4822-bf0c-4d395d91436c)
 
@@ -190,6 +192,9 @@ while True:
 
 ![6297701662400067268](https://github.com/rkish3721/Eng3/assets/143533512/a70487e8-a2c6-43ee-8b03-771ed4fc47b3)
 
+
+
+Image Credit to Arduino
 ### Wiring
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/d47290d6-20cf-4512-8c84-e43c0f87e50c)
 
@@ -231,11 +236,11 @@ while True:
 
 
 ### Evidence
-Image credit goes to Arduino
+
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/bc990605-05be-4ef1-bba6-c86dcaf8b5c6)
 
 
-
+Image Credit to Arduino
 ### Wiring
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/410f3b8a-ff6a-4074-bc3e-f0a827d9f493)
 
