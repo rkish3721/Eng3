@@ -60,7 +60,7 @@ Image credit goes to Martin Ku
 ![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/26ac5589-7d16-4440-88b8-915730de3213)
 
 ### Reflection
-This assignment wasn't very hard. The wireing was quite simple, but I did need a little help getting back in the groove with the coding.
+This assignment was a good introduction to how circuit python works. This assignment taught me how to use rgb LEDs, both on the board and plugged into it. If I were to do it again, I would have used the library code to base my code off of. I would also have looked up rgb values for different colors. 
 
 
 
@@ -164,8 +164,7 @@ Image Credit to Arduino
 ![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/f964e1ce-5fe3-4822-bf0c-4d395d91436c)
 
 ### Reflection
-This assignment was relatively easy, at least the beginning. I couldn't figure out how to do the second part, but will try it later.
-
+The first part of this assignment was easy, as all we had to do was print a value. I learned how to get the input from the distance sensor in this part. In the second, I was supposed to find out how to show the distance with a color on an rgb. I could not figure the math out, so I will come back for this later. I think if I were to try again, I would make a spreadsheet or some type of organizer to visualize it for me. 
 ## Motor_Control
 ### Description & Code
 For this assignment, we had to control a motor's speed by moving a potentiometer. 
