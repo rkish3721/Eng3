@@ -122,15 +122,13 @@ while True:
 ![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
 
 
-
 Image Credit to Arduino
 ### Wiring
 ![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/946ec9f5-aa5e-43f6-85f8-bd1cee2f63c1)
 
 ### Reflection
 
-This assignment was a fun and challenging way. I had trouble starting, but I got some help from Josh, Ryan and Mr. Helmstetter. This helped me figure out some things and finish the assignment.
-
+This assignment was challenging, as I didn't know how to use servos and buttons. I was able to find these online, and used them together to create the code. I learned how to control the angle of the servo and how to use button inputs. I would tell someone doing this project to use the servo example code in the circuit python library and to find code online to help you understand the code. 
 
 
 
