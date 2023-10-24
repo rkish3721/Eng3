@@ -13,7 +13,7 @@ This repository will actually serve as an aid to help you get started with your 
 
 ## Neopixel
 ### Description & Code
-This assignment was about using the neopixel on the board as well as the rgb led with circuit python to get it to light up in a rainbow pattern.
+This assignment was about using the neopixel on the board as well as the rgb led with circuit python to get it to light up in a rainbow pattern. I was able to do both of these and used code from the library package to help understand it. 
 ```python
 # SPDX-FileCopyrightText: 2022 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -67,7 +67,7 @@ This assignment was a good introduction to how circuit python works. This assign
 ## CircuitPython_Servo
 
 ### Description & Code
-This assignment required us to figure out how to use a servo with circuit python and how to use buttons as well. 
+This assignment required us to figure out how to use a servo with circuit python and how to use buttons as well. One button moved the servo to the right, and the other moved it to the left. I used online resources on the adafruit site to help me figure this out. 
 ```python
 # # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
 #
@@ -136,7 +136,7 @@ This assignment was challenging, as I didn't know how to use servos and buttons.
 ## Distance_Sensor
 
 ### Description & Code
-For this assignment we had to first get the serial to print the distance from the distance sensor. Then we had to show this with a corresponding color. 
+For this assignment we had to first get the serial to print the distance from the distance sensor. Then we had to show this with a corresponding color: in order going further from the sensor, red, then blue, then green. I wasn't able to figure out the second part.
 
 ```python
 import time
@@ -167,7 +167,7 @@ Image Credit to Arduino
 The first part of this assignment was easy, as all we had to do was print a value. I learned how to get the input from the distance sensor in this part. In the second, I was supposed to find out how to show the distance with a color on an rgb. I could not figure the math out, so I will come back for this later. I think if I were to try again, I would make a spreadsheet or some type of organizer to visualize it for me. 
 ## Motor_Control
 ### Description & Code
-For this assignment, we had to control a motor's speed by moving a potentiometer. 
+For this assignment, we had to control a motor's speed by moving a potentiometer up and down, corresponding to the speed. We had to wire up a 6v battery as well as this, which took some time and help. I was able to complete this in two classes, and I think my code is pretty simple. 
 ```python
 import time 
 import board
@@ -200,7 +200,7 @@ This project was easy once I got the wiring done. I learned how to write values 
 
 ## Photointerrupter
 ### Description & Code
-The goal of this assignment was to make it so a number was displayed showing how many times the photointerrupter was triggered between intervals of 4 seconds.
+The goal of this assignment was to make it so a number was displayed showing how many times the photointerrupter was triggered between intervals of 4 seconds. We had to use a function other than sleep to wait for counting the time between intervals. We then told the amount of interrupts at the end of the invervals, in a complete sentence. I was able to fully complete this assignment.
 ```python
 from digitalio import DigitalInOut, Direction, Pull
 import time
@@ -226,7 +226,7 @@ while True:
     remaining = max - time.time()
 
     if remaining <= 0: #if interval time is up, then reset counter
-        print("Interrupts:", str(counter))
+        print("The Number of Interrupts is: ", str(counter))
         max = time.time() + 4
         counter = 0
 ```
@@ -250,7 +250,7 @@ This assignment was much longer and took more time to figure out because it requ
 
 ### Assignment Description
 
-Create a Swing Arm off of a couple of diagrams. 
+The goal with this assignment was to create a swing arm with variable distances in certain dimensions. We had to do this off of sketches that were given to us as well as 2 different sets of variables. I was able to complete this after some difficulty with finding the right things to dimension. 
 
 ### Evidence
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/6b71707a-2bd4-442b-b4b6-7bf840749076)
@@ -271,8 +271,7 @@ This part was much more diffucult. I had issues in almost every part of the proc
 
 ### Assignment Description
 
-Create a Hangar off of a couple of diagrams. 
-
+The goal of this assignment was to create a simple hangar based on sketches with dimensions. I was able to complete this will skills I learned last year, like dimensioning, filleting, and extruding. 
 ### Evidence
 
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/51443432-cf77-46bf-b1d9-54301aa0e0fc)
