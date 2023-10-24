@@ -142,14 +142,14 @@ For this assignment we had to first get the serial to print the distance from th
 import time
 import board
 import adafruit_hcsr04
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6) #gets distance
 cm = 0
 while True:
     try:
-        cm = sonar.distance
-        print((cm))
+        cm = sonar.distance #assigns distance to variable
+        print((cm)) #prints the variable
     except RuntimeError:
-        print("Retrying!")
+        print("Retrying!") #if it doesn't read anything, prints "Retrying!"
     time.sleep(0.1)
 
 ```
@@ -196,7 +196,7 @@ Image Credit to Arduino
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/d47290d6-20cf-4512-8c84-e43c0f87e50c)
 
 ### Reflection
-This project was easy once I got the wiring done. Thankfully, the code already existed for the conversion so I didn't have to figure it out myself
+This project was easy once I got the wiring done. I learned how to write values and speeds to the motor as well as how to get the input of the potentiometers. To any other student starting this, I would say to try to do this in as few lines of code as possible, as it is much simpler when you do it like that. 
 
 ## Photointerrupter
 ### Description & Code
@@ -205,7 +205,7 @@ The goal of this assignment was to make it so a number was displayed showing how
 from digitalio import DigitalInOut, Direction, Pull
 import time
 import board
-
+#pins
 interrupter = DigitalInOut(board.D7)
 interrupter.direction = Direction.INPUT
 interrupter.pull = Pull.UP
@@ -215,17 +215,17 @@ counter = 0
 photo = False
 state = False
 
-max = 4
+max = 4 #sets interval
 start = time.time()
 while True:
-    photo = interrupter.value
-    if photo and not state:
+    photo = interrupter.value #sets variable to interruptet value
+    if photo and not state: #if it's interrupted, increase counter by one
             counter += 1
     state = photo
 
     remaining = max - time.time()
 
-    if remaining <= 0:
+    if remaining <= 0: #if interval time is up, then reset counter
         print("Interrupts:", str(counter))
         max = time.time() + 4
         counter = 0
@@ -243,7 +243,7 @@ Image Credit to Arduino
 
 
 ### Reflection
-This assignment was pretty easy, but I needed some help with the code from Will. I understand how the photointerrupter works now, and can use it in future projects.
+This assignment was much longer and took more time to figure out because it required longer code and more complicated logic. I learned how to use time functions and the photointerrupter. If I were to do this project again, I would try and find a more simple way of doing it, because I felt like my code was long and messy.
 
 
 ## Swing_Arm
@@ -264,7 +264,7 @@ Create a Swing Arm off of a couple of diagrams.
 
 ### Reflection
 
-This part was much more diffucult. I had issues in almost every part of the process. I had issues with sketching, extruding, and applying the fillets. Most of this was because of the confusing diagrams and the amount of constraints. With help from Mr. Miller, I was able to find the mistakes and find the correct mass. 
+This part was much more diffucult. I had issues in almost every part of the process. I had issues with sketching, extruding, and applying the fillets. Most of this was because of the confusing diagrams and the amount of constraints. With help from Mr. Miller, I was able to find the mistakes and find the correct mass. I learned how to make my sketches flexible, when I need to put in multiple variables for different steps and measurements. For any other students, I would say to take your time and not assume what dimentions go where, as they might not be used when you change the measurements of other dimensions. 
 &nbsp;
 
 ## Hangar
@@ -285,8 +285,6 @@ https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8
 
 ### Reflection
 
-This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. 
-
+This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. I didn't really learn anything new, just was able to bring back some skills from last year into this project. For any other student, I would say to use basic onshape and CAD skills for this project, because it's easy to overcomplicate it. 
 &nbsp;
-step 1: 871.71
-Step 2: 2355.7
+
