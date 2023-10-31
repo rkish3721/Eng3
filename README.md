@@ -118,7 +118,7 @@ while True:
 ```
 
 ### Evidence
-
+Video: https://drive.google.com/file/d/1mK-RP5ewB0l2BjiGcWdgzII8yKjS32TA/view?usp=sharing
 ![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
 
 
@@ -155,6 +155,8 @@ while True:
 ```
 
 ### Evidence
+Video: https://drive.google.com/file/d/1tg2j9kiaf6lywfgwjtjQZqQANztIj7cN/view?usp=sharing
+
 ![Arduino-Ultrasonic-Sensor-Tutorial-0007-Adding-an-LCD-character-display](https://github.com/rkish3721/Eng3/assets/143533512/e204a3d0-4657-4320-b3c4-b8fe1ea702f5)
 
 
@@ -186,7 +188,7 @@ while True:
     motorpin.duty_cycle = potentiometerpin.value
 ```
 ### Evidence
-
+Video: https://drive.google.com/file/d/1frKmkspSRPbky9wnn8oCSADj2EgPggAO/view?usp=sharing
 ![6297701662400067268](https://github.com/rkish3721/Eng3/assets/143533512/a70487e8-a2c6-43ee-8b03-771ed4fc47b3)
 
 
@@ -233,6 +235,7 @@ while True:
 
 
 ### Evidence
+Video: https://drive.google.com/file/d/1DhBedgn5tXwBwM79UuF_Xf-eRlL-ySZK/view?usp=sharing
 
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/bc990605-05be-4ef1-bba6-c86dcaf8b5c6)
 
