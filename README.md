@@ -290,3 +290,44 @@ https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8
 This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. I didn't really learn anything new, just was able to bring back some skills from last year into this project. For any other student, I would say to use basic onshape and CAD skills for this project, because it's easy to overcomplicate it. 
 &nbsp;
 
+## IR_Sensor
+
+### Description & Code
+For this assignment we had to create a program to detect when an object was near the sensor and change the color of the neopixel accordingly. This was pretty simple, logically, and just took some googling on the parameters and documentation to find the proper commands to use. 
+```python
+
+import board
+import digitalio
+import neopixel 
+
+# Initialize the on-board neopixel and set the brightness.
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+
+# Set up the IR Sensor using digital pin 2. 
+ir_sensor = digitalio.DigitalInOut(board.D2)
+ir_sensor.direction = digitalio.Direction.INPUT # Set the IR sensor as an input.
+ir_sensor.pull = digitalio.Pull.UP              # Use the internal pull-up resistor.
+
+
+# While loop runs the code inside continuously. 
+while True:
+    if ir_sensor.value == False: #If something is close, then turn neopixel to red
+        led.fill((255,0,0))
+        led.show()
+    elif ir_sensor.value == True: #if something isn't close, then turn neopixel to green
+        led.fill((0,255,0))
+        led.show()
+```
+
+### Evidence
+
+![IR-Sensor-Upload-Mode](https://github.com/rkish3721/Eng3/assets/143533512/b4af2a07-3688-4e12-8225-a89f6b20ee0b)
+
+Image Credit to Arduino
+
+### Wiring
+![image](https://github.com/rkish3721/Eng3/assets/143533512/8eb0f130-1841-4f78-8fbc-ba99ee2f9529)
+
+### Reflection
+ill do it later 
