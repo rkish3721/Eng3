@@ -9,6 +9,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Photointerrupter](#Photointerrupter)
 * [Hangar](#Hangar)
 * [Swing_Arm](#Swing_Arm)
+* [IR_Sensor](#IR_Sensor)
 ---
 
 ## Neopixel
