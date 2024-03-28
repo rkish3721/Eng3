@@ -10,6 +10,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Hangar](#Hangar)
 * [Swing_Arm](#Swing_Arm)
 * [IR_Sensor](#IR_Sensor)
+* [Stepper_Motor](#Stepper_Motor)
 ---
 
 ## Neopixel
@@ -330,5 +331,105 @@ Image Credit to Arduino
 ### Wiring
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/8eb0f130-1841-4f78-8fbc-ba99ee2f9529)
 
+## Stepper_Motor
+
 ### Reflection
-ill do it later 
+I learned how to use Ir sensors and how to use the distance for something somewhat useful. Other students would probably find example code useful as it does most of the hard work. I had some trouble with figuring out how to get the input in whole numbers, but was able to use google to look it up. 
+
+### Description & Code
+For this assignment we had to use a stepper motor to press a limit switch to rotate the motor the other 180 degrees. This was the most difficult project of the year in my opinion as it introduced two brand new components into my code.
+```python
+
+import asyncio
+import board
+import keypad
+import time
+import digitalio
+from adafruit_motor import stepper
+
+
+DELAY = 0.01   # Sets the delay time for in-between each step of the stepper motor.
+STEPS = 100    # Sets the number of steps. 100 is half a full rotation for the motor we're using.
+
+# Set up the digital pins used for the four wires of the stepper motor.
+coils = (
+    digitalio.DigitalInOut(board.D9),   # A1
+    digitalio.DigitalInOut(board.D10),  # A2
+    digitalio.DigitalInOut(board.D11),  # B1
+    digitalio.DigitalInOut(board.D12),  # B2
+)
+
+# Sets each of the digital pins as an output.
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+
+# Creates an instance of the stepper motor so you can send commands to it (using the Adafruit Motor library).
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+
+motor.onestep()
+
+motor.onestep(direction=stepper.BACKWARD) # tells the motor to go backwards
+
+style=stepper.DOUBLE #how much it does it.
+
+for step in range(STEPS): # tells the motor how to work
+    motor.onestep(style=stepper.DOUBLE)
+    time.sleep(DELAY)
+
+
+for step in range(STEPS):
+    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+    time.sleep(DELAY)
+
+async def catch_pin_transitions(pin):
+    # Print a message when pin goes low and when it goes high.
+    with keypad.Keys((pin,), value_when_pressed=False) as keys:
+        while True:
+            event = keys.events.get()
+            if event:
+                if event.pressed:
+                    print("Limit Switch was pressed.")
+                    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+
+                elif event.released:
+                    print("Limit Switch was released.")
+                    motor.onestep(direction=stepper.FORWARD, style=stepper.DOUBLE)
+                await asyncio.sleep(0)
+
+async def run_motor():
+    while(True):
+        motor.onestep(style= stepper.DOUBLE)
+        time.sleep(DELAY)
+        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+        time.sleep(DELAY)
+
+        await asyncio.sleep(0)
+
+async def main():
+    while(True):
+        interrupt_task = asyncio.create_task(catch_pin_transitions(board.D2))
+        asyncio.create_task(run_motor())
+        motor.onestep(style-stepper.DOUBLE)
+        time.sleep(DELAY)
+        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+        time.sleep(DELAY)
+        await asyncio.gather(interrupt_task,
+                            catch_pin_transitions(board.D2))
+       
+
+asyncio.run(main())
+```
+
+### Evidence
+
+![image](https://github.com/rkish3721/Eng3/assets/143533512/b8a13bbc-f2a7-4208-b544-7484801334aa)
+
+
+Image Credit to Mr. Miller's Slides
+
+### Wiring
+![0](https://github.com/rkish3721/Eng3/assets/143533512/35cdb1b7-4e31-4b05-8c51-2388915b8591)
+
+
+### Reflection
+In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects. 
