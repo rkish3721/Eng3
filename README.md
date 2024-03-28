@@ -331,10 +331,10 @@ Image Credit to Arduino
 ### Wiring
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/8eb0f130-1841-4f78-8fbc-ba99ee2f9529)
 
-## Stepper_Motor
-
 ### Reflection
 I learned how to use Ir sensors and how to use the distance for something somewhat useful. Other students would probably find example code useful as it does most of the hard work. I had some trouble with figuring out how to get the input in whole numbers, but was able to use google to look it up. 
+
+## Stepper_Motor
 
 ### Description & Code
 For this assignment we had to use a stepper motor to press a limit switch to rotate the motor the other 180 degrees. This was the most difficult project of the year in my opinion as it introduced two brand new components into my code.
