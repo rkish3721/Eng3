@@ -11,6 +11,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Swing_Arm](#Swing_Arm)
 * [IR_Sensor](#IR_Sensor)
 * [Stepper_Motor](#Stepper_Motor)
+* [Rotary_Encoder](#Rotary_Encoder)
 ---
 
 ## Neopixel
@@ -433,3 +434,24 @@ Image Credit to Mr. Miller's Slides
 
 ### Reflection
 In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects. 
+
+## Rotary_Encoder
+
+### Description & Code
+
+```python
+
+```
+
+### Evidence
+
+
+
+Image Credit to Mr. Miller's Slides
+
+### Wiring
+
+https://private-user-images.githubusercontent.com/143732572/297813229-5004adef-d614-4104-99fa-f9543e0774cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMxOTQyNzcsIm5iZiI6MTcxMzE5Mzk3NywicGF0aCI6Ii8xNDM3MzI1NzIvMjk3ODEzMjI5LTUwMDRhZGVmLWQ2MTQtNDEwNC05OWZhLWY5NTQzZTA3NzRjYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxNVQxNTEyNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNzA4MWM0NDY2NWZlMmVmMzY1ODFlMTFkODQ5OTdkNWY1ZTQ5NmVlZWViMDk5YzIxZDUxOTExYzNiNTg0Y2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mtNC6EMDFdeoi2cvozj0_Ojw-HYsbLtQyjtcPKWzckg
+### Reflection
+In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects. 
+
