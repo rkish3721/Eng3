@@ -11,7 +11,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Swing_Arm](#Swing_Arm)
 * [IR_Sensor](#IR_Sensor)
 * [Stepper_Motor](#Stepper_Motor)
-* [Rotary_Encoder](#Rotary_Encoder)
+* [Rotary_Encoder](#Rotary_Encoder) 
 ---
 
 ## Neopixel
@@ -440,18 +440,65 @@ In this project I learned how to use stepper motors and limits. I like stepper m
 ### Description & Code
 
 ```python
+import rotaryio
+import board
+import neopixel
+import digitalio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
+enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor = 2)
+
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows = 2, num_cols = 16)
+
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255, 0, 0)
+
+button = digitalio.DigitalInOut(board.D2)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+button_state = None  
+
+menu_index = 0
+
+ 
+while True:
+    menu_index = enc.position
+    menu = ["stop", "caution", "go"]
+    last_index = None
+    menu[0] = "stop"
+    menu[1] = "caution"
+    menu[2] = "go"  
+    menu_index_lcd = menu_index % 3
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Push for: ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print ("           ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print(menu[menu_index_lcd])
+    print(menu_index_lcd)
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        print("Button is pressed")
+        button_state = None
+    if menu_index_lcd == 0:
+        led[0] = (255, 0, 0)
+    if menu_index_lcd == 2:
+        led[0] = (0, 255, 0)
+    if menu_index_lcd == 1:
+        led[0] = (255, 255, 0)
 ```
 
 ### Evidence
 
+![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/c5ee3756-d99e-4d7c-8e8a-1cc440f16c91)
 
-
-Image Credit to Mr. Miller's Slides
+Image Credit to arduino
 
 ### Wiring
 
 https://private-user-images.githubusercontent.com/143732572/297813229-5004adef-d614-4104-99fa-f9543e0774cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMxOTQyNzcsIm5iZiI6MTcxMzE5Mzk3NywicGF0aCI6Ii8xNDM3MzI1NzIvMjk3ODEzMjI5LTUwMDRhZGVmLWQ2MTQtNDEwNC05OWZhLWY5NTQzZTA3NzRjYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxNVQxNTEyNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNzA4MWM0NDY2NWZlMmVmMzY1ODFlMTFkODQ5OTdkNWY1ZTQ5NmVlZWViMDk5YzIxZDUxOTExYzNiNTg0Y2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mtNC6EMDFdeoi2cvozj0_Ojw-HYsbLtQyjtcPKWzckg
 ### Reflection
-In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects. 
-
+In this project I relearned how to  
