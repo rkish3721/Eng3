@@ -502,3 +502,70 @@ Image Credit to arduino
 https://private-user-images.githubusercontent.com/143732572/297813229-5004adef-d614-4104-99fa-f9543e0774cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMxOTQyNzcsIm5iZiI6MTcxMzE5Mzk3NywicGF0aCI6Ii8xNDM3MzI1NzIvMjk3ODEzMjI5LTUwMDRhZGVmLWQ2MTQtNDEwNC05OWZhLWY5NTQzZTA3NzRjYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxNVQxNTEyNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNzA4MWM0NDY2NWZlMmVmMzY1ODFlMTFkODQ5OTdkNWY1ZTQ5NmVlZWViMDk5YzIxZDUxOTExYzNiNTg0Y2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mtNC6EMDFdeoi2cvozj0_Ojw-HYsbLtQyjtcPKWzckg
 ### Reflection
 In this project I relearned how to use LCD's and Rotary Encoders. I think it would be useful for other students to look back on the projects from last year to figure out how to do them again. I had some trouble with the rotation of stop, go, and caution, but was able to figure it out with the help of Henry. 
+
+## Onshape Certification Part 1  
+
+### Assignment Description
+
+This was the first part of our onshape certification to prep for the test. In this we were asked to make a design on Onshape using photos.
+### Evidence
+![Screenshot 2024-03-28 110708](https://github.com/ldengel3718/Engr3/assets/143533539/12dd4f38-8313-405a-8e15-ea2908d5ff87)
+![Screenshot 2024-03-28 110828](https://github.com/ldengel3718/Engr3/assets/143533539/44342171-b50a-432a-8558-1bf3657fd3d3)
+
+
+### Part Link
+https://cvilleschools.onshape.com/documents/92b147b8d7ff3b9049249335/w/8a123f3111920f108ef0cdcc/e/900544e70849e1d97fae8455
+
+### Reflection
+
+This part was somewhat challenging but I got good help from Mr. Miller. I think that for other students it would be the most useful to start with cutting the part from the front, and then move to the side. The only part I had a little problem with was the lip being symetrical at the corners. 
+
+## Onshape Certification Part 2
+
+### Assignment Description
+
+This was the second part of our Onshape certification. We built a piece of a microphone stand. 
+### Evidence
+![Screenshot 2024-03-28 111559](https://github.com/ldengel3718/Engr3/assets/143533539/59c9a569-6583-4204-87e7-44b9e0b61a30)
+![Screenshot 2024-03-28 111543](https://github.com/ldengel3718/Engr3/assets/143533539/7d95a3d5-6df8-429c-a609-fe02aece787a)
+
+
+
+### Part Link
+https://cvilleschools.onshape.com/documents/69e70aa0a05808b93bc8d363/w/6d7500582fddb9694f9349f7/e/ce5ba92f50a2fd8a4335a155
+### Reflection
+This part was a little easier than the previous one. For other students i would say to just double check each aspect before moving on because i didn't and had to back track a lot. I learned how to make a part more efficiently especially when its symetrical. 
+
+## Onshape Certification Part 3
+
+### Assignment Description
+
+For this assignment we were asked to make a pair of grippers and assemble multiple parts together to make the grippers.
+### Evidence
+![Screenshot 2024-03-28 112450](https://github.com/ldengel3718/Engr3/assets/143533539/2d3c6876-6c7b-4a44-af55-515679e4d6c1)
+![Screenshot 2024-03-28 112418](https://github.com/ldengel3718/Engr3/assets/143533539/32d0ef8b-5d20-4510-b7ab-db3c86a8c0ac)
+
+
+
+
+### Part Link
+https://cvilleschools.onshape.com/documents/2521a0a09a9470f1e7529975/w/cdc683274651f22f8268cb0b/e/cd2c6288e4c76a76a88755cd
+### Reflection
+This was the easiest part for me as assembly isnt that bad. I Had a little trouble with the adjuster part at the top, but other than that it went smoothly. For other students I would say to start with the mates for the grippers then move to the handle as it simplifies the process. 
+
+## Multi Part Cylinder
+
+### Assignment Description
+
+In this assignment we made a compresser type machine that looks somewhat like a hydraulic press.
+### Evidence
+![Screenshot 2024-03-28 113154](https://github.com/ldengel3718/Engr3/assets/143533539/8a904931-15ff-4fa4-a7c0-fccce7363340)
+![Screenshot 2024-03-28 113140](https://github.com/ldengel3718/Engr3/assets/143533539/a905cb7f-c777-4544-80da-94644b0a287d)
+
+
+
+
+### Part Link
+https://cvilleschools.onshape.com/documents/fa1ce5a92c7f41be972212e2/w/7742c39d70ca113353fe7592/e/d0b1e1f45cf057de39f2c453
+### Reflection
+This assignment was the hardest one out of all the Onshape assignments. I struggled with the measurements when they changed. For other students i would say to start with the bottom and top caps and then move to the interior parts. 
