@@ -11,6 +11,10 @@ This repository will actually serve as an aid to help you get started with your 
 * [Swing_Arm](#Swing_Arm)
 * [IR_Sensor](#IR_Sensor)
 * [Stepper_Motor](#Stepper_Motor)
+* [Multi_Part_Cylinder](#Multi_Part_Cylinder)
+* [Onshape_Certification_Part_1](#Onshape_Certification_Part_1)
+* [Onshape_Certification_Part_2](#Onshape_Certification_Part_2)
+* [Onshape_Certification_Part_3](#Onshape_Certification_Part_3)
 ---
 
 ## Neopixel
@@ -433,7 +437,7 @@ Image Credit to Mr. Miller's Slides
 
 ### Reflection
 In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects.
-## Onshape Certification Part 1  
+## Onshape_Certification_Part_1  
 
 ### Assignment Description
 
@@ -450,7 +454,7 @@ https://cvilleschools.onshape.com/documents/92b147b8d7ff3b9049249335/w/8a123f311
 
 This part was somewhat challenging but I got good help from Mr. Miller. For other student i would say to start extruding long ways, and then work on the width because i did it the other way on got confused. I didn't really learn anything from this project.
 
-## Onshape Certification Part 2
+## Onshape_Certification_Part_2
 
 ### Assignment Description
 
@@ -466,7 +470,7 @@ https://cvilleschools.onshape.com/documents/69e70aa0a05808b93bc8d363/w/6d7500582
 ### Reflection
 I had fun with this project and it was pretty simple. I thought it was easier than the previous assignment. For other students i would say to use the mirror tool to make it faster. I learned how to create parts more efficiently in this project.
 
-## Onshape Certification Part 3
+## Onshape_Certification_Part_3
 
 ### Assignment Description
 
@@ -483,7 +487,7 @@ https://cvilleschools.onshape.com/documents/2521a0a09a9470f1e7529975/w/cdc683274
 ### Reflection
 This was the easiest part for me as assembly isnt that bad. I learned how to do assemble something a little complicated because I haven't done it in a while. for other students i recommendend to start with the front and then attach the back, so it is easier to understand. 
 
-## Multi Part Cylinder
+## Multi_Part_Cylinder
 
 ### Assignment Description
 
