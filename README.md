@@ -11,12 +11,11 @@ This repository will actually serve as an aid to help you get started with your 
 * [Swing_Arm](#Swing_Arm)
 * [IR_Sensor](#IR_Sensor)
 * [Stepper_Motor](#Stepper_Motor)
-* [Rotary_Encoder](#Rotary_Encoder) 
 ---
 
 ## Neopixel
 ### Description & Code
-This assignment was about using the neopixel on the board as well as the rgb led with circuit python to get it to light up in a rainbow pattern. I was able to do both of these and used code from the library package to help understand it. 
+This assignment was about using the neopixel on the board as well as the rgb led with circuit python to get it to light up in a rainbow pattern. I was able to do both of these and used code from the library package to help understand it.
 ```python
 # SPDX-FileCopyrightText: 2022 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -63,14 +62,14 @@ Image credit goes to Martin Ku
 ![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/26ac5589-7d16-4440-88b8-915730de3213)
 
 ### Reflection
-This assignment was a good introduction to how circuit python works. This assignment taught me how to use rgb LEDs, both on the board and plugged into it. If I were to do it again, I would have used the library code to base my code off of. I would also have looked up rgb values for different colors. 
+This assignment was a good introduction to how circuit python works. This assignment taught me how to use rgb LEDs, both on the board and plugged into it. If I were to do it again, I would have used the library code to base my code off of. I would also have looked up rgb values for different colors.
 
 
 
 ## CircuitPython_Servo
 
 ### Description & Code
-This assignment required us to figure out how to use a servo with circuit python and how to use buttons as well. One button moved the servo to the right, and the other moved it to the left. I used online resources on the adafruit site to help me figure this out. 
+This assignment required us to figure out how to use a servo with circuit python and how to use buttons as well. One button moved the servo to the right, and the other moved it to the left. I used online resources on the adafruit site to help me figure this out.
 ```python
 # # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
 #
@@ -131,7 +130,7 @@ Image Credit to Arduino
 
 ### Reflection
 
-This assignment was challenging, as I didn't know how to use servos and buttons. I was able to find these online, and used them together to create the code. I learned how to control the angle of the servo and how to use button inputs. I would tell someone doing this project to use the servo example code in the circuit python library and to find code online to help you understand the code. 
+This assignment was challenging, as I didn't know how to use servos and buttons. I was able to find these online, and used them together to create the code. I learned how to control the angle of the servo and how to use button inputs. I would tell someone doing this project to use the servo example code in the circuit python library and to find code online to help you understand the code.
 
 
 
@@ -169,12 +168,12 @@ Image Credit to Arduino
 ![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/f964e1ce-5fe3-4822-bf0c-4d395d91436c)
 
 ### Reflection
-The first part of this assignment was easy, as all we had to do was print a value. I learned how to get the input from the distance sensor in this part. In the second, I was supposed to find out how to show the distance with a color on an rgb. I could not figure the math out, so I will come back for this later. I think if I were to try again, I would make a spreadsheet or some type of organizer to visualize it for me. 
+The first part of this assignment was easy, as all we had to do was print a value. I learned how to get the input from the distance sensor in this part. In the second, I was supposed to find out how to show the distance with a color on an rgb. I could not figure the math out, so I will come back for this later. I think if I were to try again, I would make a spreadsheet or some type of organizer to visualize it for me.
 ## Motor_Control
 ### Description & Code
-For this assignment, we had to control a motor's speed by moving a potentiometer up and down, corresponding to the speed. We had to wire up a 6v battery as well as this, which took some time and help. I was able to complete this in two classes, and I think my code is pretty simple. 
+For this assignment, we had to control a motor's speed by moving a potentiometer up and down, corresponding to the speed. We had to wire up a 6v battery as well as this, which took some time and help. I was able to complete this in two classes, and I think my code is pretty simple.
 ```python
-import time 
+import time
 import board
 from analogio import AnalogIn
 import pwmio
@@ -201,7 +200,7 @@ Image Credit to Arduino
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/d47290d6-20cf-4512-8c84-e43c0f87e50c)
 
 ### Reflection
-This project was easy once I got the wiring done. I learned how to write values and speeds to the motor as well as how to get the input of the potentiometers. To any other student starting this, I would say to try to do this in as few lines of code as possible, as it is much simpler when you do it like that. 
+This project was easy once I got the wiring done. I learned how to write values and speeds to the motor as well as how to get the input of the potentiometers. To any other student starting this, I would say to try to do this in as few lines of code as possible, as it is much simpler when you do it like that.
 
 ## Photointerrupter
 ### Description & Code
@@ -256,7 +255,7 @@ This assignment was much longer and took more time to figure out because it requ
 
 ### Assignment Description
 
-The goal with this assignment was to create a swing arm with variable distances in certain dimensions. We had to do this off of sketches that were given to us as well as 2 different sets of variables. I was able to complete this after some difficulty with finding the right things to dimension. 
+The goal with this assignment was to create a swing arm with variable distances in certain dimensions. We had to do this off of sketches that were given to us as well as 2 different sets of variables. I was able to complete this after some difficulty with finding the right things to dimension.
 
 ### Evidence
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/6b71707a-2bd4-442b-b4b6-7bf840749076)
@@ -264,56 +263,56 @@ The goal with this assignment was to create a swing arm with variable distances 
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/79214081-1c8a-421c-9e13-e83eba0ff08f)
 
 
-### Part Link 
+### Part Link
 
 [https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8a7d80cc744575f2/e/dbb2c604f01a1726824c346c?renderMode=0&leftPanel=false&uiState=652020c39e6e0e4d8aa4e6c4](https://cvilleschools.onshape.com/documents/8a3131d7295d5fcba5a5fb46/w/18bc800323359c4ed220c16e/e/f967bfbc066e21d6992bfc97?renderMode=0&uiState=6520232cc410cf73ca87c904)
 
 ### Reflection
 
-This part was much more diffucult. I had issues in almost every part of the process. I had issues with sketching, extruding, and applying the fillets. Most of this was because of the confusing diagrams and the amount of constraints. With help from Mr. Miller, I was able to find the mistakes and find the correct mass. I learned how to make my sketches flexible, when I need to put in multiple variables for different steps and measurements. For any other students, I would say to take your time and not assume what dimentions go where, as they might not be used when you change the measurements of other dimensions. 
+This part was much more diffucult. I had issues in almost every part of the process. I had issues with sketching, extruding, and applying the fillets. Most of this was because of the confusing diagrams and the amount of constraints. With help from Mr. Miller, I was able to find the mistakes and find the correct mass. I learned how to make my sketches flexible, when I need to put in multiple variables for different steps and measurements. For any other students, I would say to take your time and not assume what dimentions go where, as they might not be used when you change the measurements of other dimensions.
 &nbsp;
 
 ## Hangar
 
 ### Assignment Description
 
-The goal of this assignment was to create a simple hangar based on sketches with dimensions. I was able to complete this will skills I learned last year, like dimensioning, filleting, and extruding. 
+The goal of this assignment was to create a simple hangar based on sketches with dimensions. I was able to complete this will skills I learned last year, like dimensioning, filleting, and extruding.
 ### Evidence
 
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/51443432-cf77-46bf-b1d9-54301aa0e0fc)
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/b0fb2115-0cc3-4a9e-b8dd-24f8e68b7cb9)
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/8979645f-96c6-4570-b436-c828686e4133)
 
-### Part Link 
+### Part Link
 
 https://cvilleschools.onshape.com/documents/dc746cfb186d07053b5e0e5a/w/0bd438ac8a7d80cc744575f2/e/dbb2c604f01a1726824c346c?renderMode=0&leftPanel=false&uiState=652020c39e6e0e4d8aa4e6c4
 
 ### Reflection
 
-This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. I didn't really learn anything new, just was able to bring back some skills from last year into this project. For any other student, I would say to use basic onshape and CAD skills for this project, because it's easy to overcomplicate it. 
+This part was realively easy and a good way to get back into onshape. The curves on the top were that hardest part to figure out, but if you use the tangent tool it becomes easy. I didn't really learn anything new, just was able to bring back some skills from last year into this project. For any other student, I would say to use basic onshape and CAD skills for this project, because it's easy to overcomplicate it.
 &nbsp;
 
 ## IR_Sensor
 
 ### Description & Code
-For this assignment we had to create a program to detect when an object was near the sensor and change the color of the neopixel accordingly. This was pretty simple, logically, and just took some googling on the parameters and documentation to find the proper commands to use. 
+For this assignment we had to create a program to detect when an object was near the sensor and change the color of the neopixel accordingly. This was pretty simple, logically, and just took some googling on the parameters and documentation to find the proper commands to use.
 ```python
 
 import board
 import digitalio
-import neopixel 
+import neopixel
 
 # Initialize the on-board neopixel and set the brightness.
 led = neopixel.NeoPixel(board.NEOPIXEL, 1)
 led.brightness = 0.3
 
-# Set up the IR Sensor using digital pin 2. 
+# Set up the IR Sensor using digital pin 2.
 ir_sensor = digitalio.DigitalInOut(board.D2)
 ir_sensor.direction = digitalio.Direction.INPUT # Set the IR sensor as an input.
 ir_sensor.pull = digitalio.Pull.UP              # Use the internal pull-up resistor.
 
 
-# While loop runs the code inside continuously. 
+# While loop runs the code inside continuously.
 while True:
     if ir_sensor.value == False: #If something is close, then turn neopixel to red
         led.fill((255,0,0))
@@ -333,7 +332,7 @@ Image Credit to Arduino
 ![image](https://github.com/rkish3721/Eng3/assets/143533512/8eb0f130-1841-4f78-8fbc-ba99ee2f9529)
 
 ### Reflection
-I learned how to use Ir sensors and how to use the distance for something somewhat useful. Other students would probably find example code useful as it does most of the hard work. I had some trouble with figuring out how to get the input in whole numbers, but was able to use google to look it up. 
+I learned how to use Ir sensors and how to use the distance for something somewhat useful. Other students would probably find example code useful as it does most of the hard work. I had some trouble with figuring out how to get the input in whole numbers, but was able to use google to look it up.
 
 ## Stepper_Motor
 
@@ -433,76 +432,7 @@ Image Credit to Mr. Miller's Slides
 
 
 ### Reflection
-In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects. 
-
-## Rotary_Encoder
-
-### Description & Code
-
-```python
-import rotaryio
-import board
-import neopixel
-import digitalio
-from lcd.lcd import LCD
-from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
-
-enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor = 2)
-
-lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows = 2, num_cols = 16)
-
-led = neopixel.NeoPixel(board.NEOPIXEL, 1)
-led.brightness = 0.3
-led[0] = (255, 0, 0)
-
-button = digitalio.DigitalInOut(board.D2)
-button.direction = digitalio.Direction.INPUT
-button.pull = digitalio.Pull.UP
-button_state = None  
-
-menu_index = 0
-
- 
-while True:
-    menu_index = enc.position
-    menu = ["stop", "caution", "go"]
-    last_index = None
-    menu[0] = "stop"
-    menu[1] = "caution"
-    menu[2] = "go"  
-    menu_index_lcd = menu_index % 3
-    lcd.set_cursor_pos(0,0)
-    lcd.print("Push for: ")
-    lcd.set_cursor_pos(1,0)
-    lcd.print ("           ")
-    lcd.set_cursor_pos(1,0)
-    lcd.print(menu[menu_index_lcd])
-    print(menu_index_lcd)
-    if not button.value and button_state is None:
-        button_state = "pressed"
-    if button.value and button_state == "pressed":
-        print("Button is pressed")
-        button_state = None
-    if menu_index_lcd == 0:
-        led[0] = (255, 0, 0)
-    if menu_index_lcd == 2:
-        led[0] = (0, 255, 0)
-    if menu_index_lcd == 1:
-        led[0] = (255, 255, 0)
-```
-
-### Evidence
-
-![unnamed](https://github.com/rkish3721/Eng3/assets/143533512/c5ee3756-d99e-4d7c-8e8a-1cc440f16c91)
-
-Image Credit to arduino
-
-### Wiring
-
-https://private-user-images.githubusercontent.com/143732572/297813229-5004adef-d614-4104-99fa-f9543e0774cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMxOTQyNzcsIm5iZiI6MTcxMzE5Mzk3NywicGF0aCI6Ii8xNDM3MzI1NzIvMjk3ODEzMjI5LTUwMDRhZGVmLWQ2MTQtNDEwNC05OWZhLWY5NTQzZTA3NzRjYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxNVQxNTEyNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNzA4MWM0NDY2NWZlMmVmMzY1ODFlMTFkODQ5OTdkNWY1ZTQ5NmVlZWViMDk5YzIxZDUxOTExYzNiNTg0Y2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mtNC6EMDFdeoi2cvozj0_Ojw-HYsbLtQyjtcPKWzckg
-### Reflection
-In this project I relearned how to use LCD's and Rotary Encoders. I think it would be useful for other students to look back on the projects from last year to figure out how to do them again. I had some trouble with the rotation of stop, go, and caution, but was able to figure it out with the help of Henry. 
-
+In this project I learned how to use stepper motors and limits. I like stepper motors better than regular motors b/c theyre easier to control. I think other students would find it helpful to take the two components one at a time, and figure out how they work in different files first. I liked this project overall, but i think i would've understood it more if they were individual projects.
 ## Onshape Certification Part 1  
 
 ### Assignment Description
@@ -518,13 +448,13 @@ https://cvilleschools.onshape.com/documents/92b147b8d7ff3b9049249335/w/8a123f311
 
 ### Reflection
 
-This part was somewhat challenging but I got good help from Mr. Miller. I think that for other students it would be the most useful to start with cutting the part from the front, and then move to the side. The only part I had a little problem with was the lip being symetrical at the corners. 
+This part was somewhat challenging but I got good help from Mr. Miller. For other student i would say to start extruding long ways, and then work on the width because i did it the other way on got confused. I didn't really learn anything from this project.
 
 ## Onshape Certification Part 2
 
 ### Assignment Description
 
-This was the second part of our Onshape certification. We built a piece of a microphone stand. 
+This was the second part of our Onshape certification. We built a piece of a mic stand.
 ### Evidence
 ![Screenshot 2024-03-28 111559](https://github.com/ldengel3718/Engr3/assets/143533539/59c9a569-6583-4204-87e7-44b9e0b61a30)
 ![Screenshot 2024-03-28 111543](https://github.com/ldengel3718/Engr3/assets/143533539/7d95a3d5-6df8-429c-a609-fe02aece787a)
@@ -534,7 +464,7 @@ This was the second part of our Onshape certification. We built a piece of a mic
 ### Part Link
 https://cvilleschools.onshape.com/documents/69e70aa0a05808b93bc8d363/w/6d7500582fddb9694f9349f7/e/ce5ba92f50a2fd8a4335a155
 ### Reflection
-This part was a little easier than the previous one. For other students i would say to just double check each aspect before moving on because i didn't and had to back track a lot. I learned how to make a part more efficiently especially when its symetrical. 
+I had fun with this project and it was pretty simple. I thought it was easier than the previous assignment. For other students i would say to use the mirror tool to make it faster. I learned how to create parts more efficiently in this project.
 
 ## Onshape Certification Part 3
 
@@ -551,7 +481,7 @@ For this assignment we were asked to make a pair of grippers and assemble multip
 ### Part Link
 https://cvilleschools.onshape.com/documents/2521a0a09a9470f1e7529975/w/cdc683274651f22f8268cb0b/e/cd2c6288e4c76a76a88755cd
 ### Reflection
-This was the easiest part for me as assembly isnt that bad. I Had a little trouble with the adjuster part at the top, but other than that it went smoothly. For other students I would say to start with the mates for the grippers then move to the handle as it simplifies the process. 
+This was the easiest part for me as assembly isnt that bad. I learned how to do assemble something a little complicated because I haven't done it in a while. for other students i recommendend to start with the front and then attach the back, so it is easier to understand. 
 
 ## Multi Part Cylinder
 
@@ -563,9 +493,7 @@ In this assignment we made a compresser type machine that looks somewhat like a 
 ![Screenshot 2024-03-28 113140](https://github.com/ldengel3718/Engr3/assets/143533539/a905cb7f-c777-4544-80da-94644b0a287d)
 
 
-
-
 ### Part Link
 https://cvilleschools.onshape.com/documents/fa1ce5a92c7f41be972212e2/w/7742c39d70ca113353fe7592/e/d0b1e1f45cf057de39f2c453
 ### Reflection
-This assignment was the hardest one out of all the Onshape assignments. I struggled with the measurements when they changed. For other students i would say to start with the bottom and top caps and then move to the interior parts. 
+This assignment was the hardest one out of all the Onshape assignments. I struggled with making the top section and getting the dimensions correct. I also struggled with the pillars on the side ad getting the circles correct on the bottom of them. I recommend to start with the top and bottom caps first, then move to the middle to do the blunger part. 
